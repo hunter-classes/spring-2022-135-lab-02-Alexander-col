@@ -11,6 +11,10 @@ int main()
   std::cin >> L;
   std::cout << "Input the value for U: ";
   std::cin >> U;
+  for(int i = L; i < U; i++){
+    std::cout << i << " ";
+  }
+  std::cout << std::endl;
 
   return 0;
 }
