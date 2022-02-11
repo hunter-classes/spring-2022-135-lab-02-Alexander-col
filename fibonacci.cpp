@@ -16,3 +16,4 @@ int main(){
     test = test + 1;
   }
 }
+// When the funnction get to near the two billions the numbers become negative which I belive might have to do with memory size of a number. When I did an diffrent version of this code instead of having the array by and int I set it as double and the 60th term was 9.56722e+11 instead of -1055680967.
