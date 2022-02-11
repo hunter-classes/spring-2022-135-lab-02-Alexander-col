@@ -9,19 +9,21 @@
 
 int main(){
   int myData[10];
-  int index;
-  int value;
+  int index = 1;
+  int value= 1;
+  int i = 1;
   for(int i = 0; i < 10; i++)
   {
     myData[i] = 1;
     std::cout << myData[i] << " ";
   }
   std::cout << std::endl;
+
+  while(index < 10 && index > -1){
   std::cout << "Enter an index: ";
   std::cin >> index;
   std::cout << "Enter a value: ";
   std::cin >> value;
-  if(index < 10 && index > 0){
     myData[index] = value;
     for(int i = 0; i < 10; i++)
   {
@@ -29,6 +31,6 @@ int main(){
   }
   std::cout << std::endl;
   }
-
+  
 return 0;
 }
