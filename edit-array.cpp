@@ -30,6 +30,7 @@ int main(){
     std::cout << myData[i] << " ";
   }
   std::cout << std::endl;
+  std::cout << "Index out of range. Exit ";
   }
   
 return 0;
